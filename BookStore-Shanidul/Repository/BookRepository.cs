@@ -26,6 +26,7 @@ namespace BookStore_Shanidul.Repository
                 Author = model.Author,
                 CreatedOn = DateTime.UtcNow,
                 Description = model.Description,
+                Category=model.Category,
                 Title = model.Title,
                 LanguageId = model.LanguageId,
                 TotalPages = model.TotalPages.HasValue ? model.TotalPages.Value : 0,
